@@ -1,0 +1,97 @@
+body {
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+header {
+  
+    background-color: #e449ff;
+    color: #fff;
+    padding: 25px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+header nav ul {
+  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+  
+    color: #23fff7;
+    text-shadow: 5px 5px 5px #23fff7;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.level, .coin, .raid, .scroll, .cheat, .custom {
+    background-image: url('img/theme.jpg');
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.level h4, .coin h4, .raid h4, .scroll h4, .cheat h4, .custom h4 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.order-btn {
+    background-color: #000fec;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: ##49ffff;
+}
+
+.testimoni {
+    background-color: #ffd802;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimoni-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimoni-item {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.testimoni-item p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimoni-item span {
+    font-weight: bold;
+}
